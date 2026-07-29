@@ -6,7 +6,14 @@ secrets:
   - GOODVAT_API_KEY
 
 sites:
-  - name: GoodVAT API
+  - name: GoodVAT API Health
+    slug: good-vat-api-health
+    url: https://api.goodvat.com/health
+    expectedStatusCodes:
+      - 200
+
+  - name: GoodVAT Address Normalization
+    slug: good-vat-api
     url: https://api.goodvat.com/v1/address/normalize
     method: POST
     headers:
