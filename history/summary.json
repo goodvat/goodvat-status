@@ -4,19 +4,19 @@
     "url": "https://api.goodvat.com/v1/address/normalize",
     "icon": "https://icons.duckduckgo.com/ip3/api.goodvat.com.ico",
     "slug": "good-vat-api",
-    "status": "down",
-    "uptime": "70.04%",
-    "uptimeDay": "70.04%",
-    "uptimeWeek": "70.04%",
-    "uptimeMonth": "70.04%",
-    "uptimeYear": "70.04%",
-    "time": 433,
-    "timeDay": 433,
-    "timeWeek": 433,
-    "timeMonth": 433,
-    "timeYear": 433,
+    "status": "up",
+    "uptime": "28.08%",
+    "uptimeDay": "28.08%",
+    "uptimeWeek": "28.08%",
+    "uptimeMonth": "28.08%",
+    "uptimeYear": "28.08%",
+    "time": 477,
+    "timeDay": 477,
+    "timeWeek": 477,
+    "timeMonth": 477,
+    "timeYear": 477,
     "dailyMinutesDown": {
-      "2026-07-29": 0
+      "2026-07-29": 6
     }
   }
 ]
