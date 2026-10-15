@@ -1,7 +1,7 @@
 url: https://api.goodvat.com/v1/address/normalize
-status: up
-code: 200
-responseTime: 355
-lastUpdated: 2026-10-15T01:01:53.250Z
+status: down
+code: 404
+responseTime: 327
+lastUpdated: 2026-10-15T23:48:13.234Z
 startTime: 2026-07-29T06:55:03.553Z
 generator: Upptime <https://github.com/upptime/upptime>
