@@ -1,7 +1,7 @@
 url: https://api.goodvat.com/health
-status: down
-code: 404
-responseTime: 282
-lastUpdated: 2026-10-16T00:52:08.496Z
+status: up
+code: 200
+responseTime: 450
+lastUpdated: 2026-10-16T01:42:14.830Z
 startTime: 2026-07-29T11:25:28.956Z
 generator: Upptime <https://github.com/upptime/upptime>
