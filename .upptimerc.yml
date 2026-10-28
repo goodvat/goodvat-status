@@ -2,24 +2,10 @@
 owner: goodvat # Your GitHub organization or username, where this repository lives
 repo: goodvat-status # The name of this repository
 
-secrets:
-  - GOODVAT_API_KEY
-
 sites:
   - name: GoodVAT API Health
     slug: good-vat-api-health
     url: https://api.goodvat.com/health
-    expectedStatusCodes:
-      - 200
-
-  - name: GoodVAT Address Normalization
-    slug: good-vat-api
-    url: https://api.goodvat.com/v1/address/normalize
-    method: POST
-    headers:
-      - "Authorization: Bearer $GOODVAT_API_KEY"
-      - "Content-Type: application/json"
-    body: '{"query": "781 Franklin Ave Crown Heights Brooklyn NY 11216 USA", "language": "en", "country": "USA"}'
     expectedStatusCodes:
       - 200
 
